@@ -1,0 +1,142 @@
+.box {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+body {
+    font-family: 'Vollkorn', serif;
+}
+
+/* Navbar */
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 5px;
+    transition: .3s;
+  }
+  .navbar-light .navbar-brand {
+    color: #eee;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 50px;
+    margin-top: 5px;
+    text-transform:uppercase;
+    border: 1px solid #f2f2f2;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  .navbar-light .navbar-brand:hover {
+    color: #ff9933;
+    border: 1px solid #ff9933;
+    border-radius: 3px;
+    transition: .3s;
+  }
+  .navbar-nav .nav-item .nav-link {
+    position: relative;
+    margin-right: 20px;
+    color:#eee;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #ff9933;
+    transition: .2s;
+  }
+  .navbar-expand-md .navbar-collapse {
+      padding-top: 0;
+  }
+  .navbar-collapse {
+    color: #fff;
+    padding: 0;
+  }
+
+/* title */
+ .title {
+    margin: 20px;
+    height:20vh;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.title h3 {
+  color: #000;
+  
+}
+.title-underline {
+    width:150px;
+    border: 3px solid #F15025;
+    margin:0px auto 10px auto;
+}
+
+.pic-carol {
+  width: 350px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.row p {
+  text-align: justify;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h4 {
+  margin: 10px 0;
+  color: #000;
+}
+
+#events {
+    color: #d3142d;
+    /* background-color: #ced0ce; */
+    padding: 40px;
+    margin-bottom: 10px;
+}
+#events a {
+    margin-bottom: 20px;
+    background-color: #eee;
+    color: #000;
+    font-size: 20px;
+}
+#events a:hover {
+    background-color: green;
+    opacity: 0.5;
+    color: #fff;
+}
+
+/* Footer */
+
+#footer {
+  padding-top: 10px;
+  color:whitesmoke;
+  background-color: #353531;
+ }
+
+ .footer-brand {
+   margin-top: 20px;
+ }
+
+ .display-4 {
+   color: #fff;
+ }
+
+ .title hr {
+   width: 30%;
+   height: 5px;
+   background: #c43114;
+   margin-bottom: 40px;
+ }
+
+#footer .footer-icons {
+  font-size: 60px;
+  padding-top: 30px;
+
+ }
+#footer.footer-icons a{
+  color:deepskyblue;
+  text-decoration: none;
+
+  }
+#footer.footer-icons a:hover {
+  color:#F15025;
+  }

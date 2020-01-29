@@ -1,0 +1,477 @@
+.navbar {
+  padding-top: 0;
+  padding-bottom: 5px;
+  transition: .3s;
+}
+
+.navbar-light .navbar-brand {
+  color: #eee;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-left: 50px;
+  margin-top: 5px;
+  text-transform:uppercase;
+  /* border: 1px solid #c43114; */
+  border: 1px solid #f2f2f2;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #ff9933;
+  border: 1px solid #ff9933;
+  border-radius: 3px;
+  transition: .3s;
+}
+
+.navbar-nav .nav-item .nav-link {
+  position: relative;
+  margin-right: 20px;
+  color:#eee;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ff9933;
+  border-bottom: 1px solid orange;
+  transition: .2s;
+}
+
+.navbar-expand-md .navbar-collapse {
+    padding-top: 0;
+}
+
+.navbar-collapse {
+  color: #fff;
+  padding: 0;
+}
+
+#navbarOne {
+  width: 100%;
+  height: 55px;
+  background: #000;
+  opacity: 0.6;
+}
+
+/* toggler icon */
+.d-block {
+  height: 600px;
+  background-size: cover;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,255,255);
+}
+
+/* Landing Page Slider */
+#landing-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  background: url("images/quest.jpg")no-repeat center fixed;
+  background-size: cover;
+  z-index: 1;
+}
+
+.land-cover {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  background: #000;
+  opacity: 0.2;
+  z-index: 1;
+}
+
+.intro-text {
+  display: flex;
+  /* position: absolute; */
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.intro-text h1{
+  text-transform: uppercase;
+  /* padding: 3px 5px; */
+  font-family: 'Khand', sans-serif;
+  color: #f2f2f2;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  font-size: 8vw;
+  /* z-index: 3; */
+  opacity: .9;
+}
+
+.intro-text h1:hover {
+  color: #ffe6cc;
+  transition: .2s;
+}
+
+.intro-text-caption {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid #fff; */
+  width: 90%;
+  margin-top: 50px;
+  z-index: 3;
+}
+
+.intro-text-caption h1{
+  font-size: 1.8vw;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+#landing-page a {
+  position: absolute;
+  margin-top: 100px;
+  background: #ff9933;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #eee;
+  padding: 10px;
+  z-index: 3;
+  font-size: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+#landing-page a:hover {
+  color: #ff9933;
+  transition: .3s;
+  background:#eee;
+  border: 2px solid orange;
+}
+
+/* Home Page */
+#home {
+  height: auto;
+  padding: 20px 0px;
+  background: #fff;
+}
+
+#home h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #333;
+  margin-top: 100px;
+  font-size: 10vh;
+  text-transform: uppercase;
+}
+
+#home hr {
+  width: 50%;
+  height: 2px;
+  background: #c43114;
+  margin-bottom: 40px;
+}
+
+.about-us {
+  width: 90%;
+  font-size: 3vh;
+  margin-bottom: 100px;
+}
+
+/* Our history begins here */
+
+.about-pic {
+  background: url("images/00003.png") fixed;
+  background-size: cover;
+  padding-top: 10px;
+  margin-bottom: 50px;
+  height: 400px;
+}
+
+blockquote {
+  width: 80%;
+  margin: auto;
+  font-size: 3vh;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.fa-quote-left, .fa-quote-right {
+  color: orange;
+}
+/* Get coaching. Get results. */
+.thumbnail {
+  margin-top: 50px;
+}
+.img-thumbnail {
+    padding: .25rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    width: 100%;
+    height: 200px;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.02);
+  transition: transform .3s ease;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.events {
+  margin-bottom: 100px;
+}
+
+.events p{
+  margin-bottom: 50px;
+  font-size: 3vh;
+}
+
+.events a {
+  width: 15vw;
+  height: 50px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid orange;
+  color: orange;
+  background: none;
+}
+
+.events a:hover {
+  text-decoration-style: none;
+  text-decoration: none;
+  color: #fff;
+  background: orange;
+}
+
+.one {
+  background: url("images/00002.png") no-repeat center center;
+  background-size: cover;
+}
+
+.two {
+  background: url("images/pirates 14.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.three {
+  background: url("images/00005.png") no-repeat center center;
+  background-size: cover;
+}
+
+.four {
+  background: url("images/selkie.jpg");
+  background-size: cover;
+}
+
+.five {
+  background: url("images/IMG_1162.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.six {
+  background: url("images/royal 3.jpg")no-repeat center center;
+  background-size: cover;
+}
+
+/* Testimonials - Get to know our team */
+.testimonials-page p {
+  margin-bottom: 50px;
+}
+
+/* Show More or Show Less */
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
+}
+
+/* BELLOW JUST STYLING */
+.container {
+  width: 100%;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.showhide {
+  padding: 0;
+  margin: 0;
+}
+
+.showhide .btn {
+  width: 10%;
+  /* border-radius: 0; */
+  color: #000;
+  border: none;
+  /* border-radius: 5px; */
+  padding: 0;
+}
+
+.showhide .btn:hover {
+  color: orange;
+  background: none;
+}
+
+/* Get to know our team */
+.testimonials-page {
+  font-size: 3vh;
+  margin-bottom: 50px;
+}
+
+.testimonials-page a {
+  width: 15vw;
+  height: 50px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid orange;
+  color: orange;
+  background: none;
+}
+
+.testimonials-page a:hover {
+  text-decoration-style: none;
+  text-decoration: none;
+  color: #fff;
+  background: orange;
+}
+
+.testimonials-page span a{
+  color: #38a4b5;
+  padding: 0;
+  border: none;
+}
+
+.testimonials-page span a:hover {
+  background: none;
+  color: #40b7c9;
+}
+
+.testmls-pic {
+  background: url("images/00003.png");
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+/* Footer */
+#footer {
+  padding:40px;
+  color:whitesmoke;
+  background-color: #353531;
+ }
+
+ .title hr {
+   width: 30%;
+   height: 3px;
+   background: #c43114;
+   margin-bottom: 40px;
+ }
+
+#footer .footer-icons {
+  font-size: 60px;
+  padding-top: 30px;
+
+ }
+#footer.footer-icons a{
+  color:deepskyblue;
+  text-decoration: none;
+
+  }
+#footer.footer-icons a:hover {
+  color:#F15025;
+  }
+
+
+/* @media Media Queries */
+@media (max-width:576px) {
+
+  .navbar {
+    padding: 0;
+  }
+  .navbar-light .navbar-brand {
+    color: #eee;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 5px 0px 5px 50px;
+    text-transform:uppercase;
+    border: 1px solid #f2f2f2;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+
+  .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: none;
+  }
+
+  .intro-text-caption h1 {
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .col-text p {
+    text-align: center;
+    font-size: 3vw;
+    padding: 30px;
+  }
+
+  .col-text span {
+    font-size: 6vw;
+    line-height: 1;
+  }
+
+  .testmls-pic {
+    width: 100%;
+    height: 200px;
+  }
+
+}
+/* --------------------------- */
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar-light .navbar-brand {
+    color: #eee;
+    font-weight: bold;
+    margin: 5px 0px 5px 50px;
+    text-transform:uppercase;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+  }
+
+  .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: none;
+  }
+
+  .bg-custom {
+    background: #757574;
+  }
+  .navbar-collapse {
+    transition: .2s;
+  }
+
+  .navbar-nav .nav-item:hover {
+    background: #eee;
+    transition: .3s;
+    padding: 0;
+  }
+
+  .navbar-toggler {
+    margin: 5px 20px 5px 0px;
+  }
+
+  .testmls-pic {
+    width: 90%;
+    height: 200px;
+  }
+}
